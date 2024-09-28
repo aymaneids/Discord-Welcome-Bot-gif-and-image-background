@@ -1,5 +1,7 @@
 # Discord-Welcome-Bot-gif-and-image-background
 
+
+
 # Discord Welcome Bot
 
 A customizable Discord bot that sends welcome messages with personalized images when new members join a server.
@@ -51,18 +53,36 @@ A customizable Discord bot that sends welcome messages with personalized images 
 ## Usage
 
 1. Use the following commands in your Discord server to configure the bot:
-   - `!set_welcome_channel`: Set the channel for welcome messages
-   - `!set_background`: Set the background image (local file or URL)
-   - `!set_welcome_format`: Set the welcome message format
-   - `!toggle_welcome`: Toggle welcome messages on/off
-   - `!set_font_size`: Set the font size for welcome messages
-   - `!set_font_color`: Set the font color (RGB values)
-   - `!set_background_size`: Set the background image size
-   - `!set_avatar_size`: Set the size of the avatar in welcome images
-   - `!set_text_position`: Set the position of the welcome text
-   - `!set_avatar_position`: Set the position of the avatar
-   - `!test_welcome`: Test the welcome message for a specific member
-   - `!show_config`: Display the current configuration
+
+!set_welcome_channel [#channel]: Set the channel for welcome messages
+Example: !set_welcome_channel #welcome
+!set_background <type> <path>: Set the background image (local file or URL)
+Example: !set_background url https://example.com/background.gif
+Example: !set_background local ./images/background.png
+!set_welcome_format <format>: Set the welcome message format
+Example: !set_welcome_format Welcome {display_name} to {server_name}!
+!toggle_welcome: Toggle welcome messages on/off
+Example: !toggle_welcome
+!set_font_size <size>: Set the font size for welcome messages
+Example: !set_font_size 36
+!set_font_color <r> <g> <b>: Set the font color (RGB values)
+Example: !set_font_color 255 255 255
+!set_background_size <width> <height>: Set the background image size
+Example: !set_background_size 800 400
+!set_avatar_size <size>: Set the size of the avatar in welcome images
+Example: !set_avatar_size 128
+!set_text_position <x> <y>: Set the position of the welcome text
+Example: !set_text_position 400 300
+!set_avatar_position <x> <y>: Set the position of the avatar
+Example: !set_avatar_position 100 150
+!test_welcome [@user]: Test the welcome message for a specific member
+Example: !test_welcome @JohnDoe
+Note: If no user is specified, it will test with the command user.
+!show_config: Display the current configuration
+Example: !show_config
+
+## Command Permissions
+All configuration commands require administrator permissions in the Discord server.
 
 ## Contributing
 
