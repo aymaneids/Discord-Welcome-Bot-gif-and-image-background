@@ -1,5 +1,8 @@
 # Discord-Welcome-Bot-gif-and-image-background
 
+![welcome_test](https://github.com/user-attachments/assets/23ab4b7e-465c-409a-8983-69e5d73eb458)
+
+![image](https://github.com/user-attachments/assets/337d2c9d-9a54-4d44-9f0f-3762b9398af8)
 
 
 # Discord Welcome Bot
